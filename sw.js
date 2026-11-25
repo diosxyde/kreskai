@@ -1,4 +1,4 @@
-const CACHE='kreskai-2026-11-24-2149';
+const CACHE='kreskai-2026-11-25-0227';
 const META='kreskai-meta';
 const FILES=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/icon-512-maskable.png','ocr/tesseract.min.js','ocr/worker.min.js','ocr/core/tesseract-core-simd-lstm.wasm.js','ocr/core/tesseract-core-lstm.wasm.js','ocr/lang/fra.js'];
 const ALLOWED=new Set(FILES.map(f=>new URL(f,self.registration.scope).href));
